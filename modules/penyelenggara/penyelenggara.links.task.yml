@@ -1,0 +1,22 @@
+# Penyelenggara routing definition
+penyelenggara.settings_tab:
+  route_name: penyelenggara.settings
+  title: 'Settings'
+  base_route: penyelenggara.settings
+
+entity.penyelenggara.canonical:
+  route_name: entity.penyelenggara.canonical
+  base_route: entity.penyelenggara.canonical
+  title: 'View'
+
+entity.penyelenggara.edit_form:
+  route_name: entity.penyelenggara.edit_form
+  base_route: entity.penyelenggara.canonical
+  title: 'Edit'
+
+entity.penyelenggara.delete_form:
+  route_name:  entity.penyelenggara.delete_form
+  base_route:  entity.penyelenggara.canonical
+  title: Delete
+  weight: 10
+

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains juara.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function juara_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the juara module.
+    case 'help.page.juara':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Juara yang didapat dalam perlombaan') . '</p>';
+      return $output;
+
+    default:
+  }
+}

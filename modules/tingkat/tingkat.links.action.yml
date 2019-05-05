@@ -1,0 +1,5 @@
+entity.tingkat.add_form:
+  route_name: entity.tingkat.add_form
+  title: 'Add Tingkat'
+  appears_on:
+    - entity.tingkat.collection

@@ -1,0 +1,22 @@
+# Juara routing definition
+juara.settings_tab:
+  route_name: juara.settings
+  title: 'Settings'
+  base_route: juara.settings
+
+entity.juara.canonical:
+  route_name: entity.juara.canonical
+  base_route: entity.juara.canonical
+  title: 'View'
+
+entity.juara.edit_form:
+  route_name: entity.juara.edit_form
+  base_route: entity.juara.canonical
+  title: 'Edit'
+
+entity.juara.delete_form:
+  route_name:  entity.juara.delete_form
+  base_route:  entity.juara.canonical
+  title: Delete
+  weight: 10
+

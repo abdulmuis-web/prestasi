@@ -1,0 +1,14 @@
+
+# Juara menu items definition
+entity.juara.collection:
+  title: 'Juara list'
+  route_name: entity.juara.collection
+  description: 'List Juara entities'
+  parent: system.admin_structure
+  weight: 100
+
+juara.admin.structure.settings:
+  title: 'Juara settings'
+  description: 'Configure Juara entities'
+  route_name: juara.settings
+  parent: system.admin_structure

@@ -1,0 +1,22 @@
+# Prestasi routing definition
+prestasi.settings_tab:
+  route_name: prestasi.settings
+  title: 'Settings'
+  base_route: prestasi.settings
+
+entity.prestasi.canonical:
+  route_name: entity.prestasi.canonical
+  base_route: entity.prestasi.canonical
+  title: 'View'
+
+entity.prestasi.edit_form:
+  route_name: entity.prestasi.edit_form
+  base_route: entity.prestasi.canonical
+  title: 'Edit'
+
+entity.prestasi.delete_form:
+  route_name:  entity.prestasi.delete_form
+  base_route:  entity.prestasi.canonical
+  title: Delete
+  weight: 10
+

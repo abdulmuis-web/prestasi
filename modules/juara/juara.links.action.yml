@@ -1,0 +1,5 @@
+entity.juara.add_form:
+  route_name: entity.juara.add_form
+  title: 'Add Juara'
+  appears_on:
+    - entity.juara.collection

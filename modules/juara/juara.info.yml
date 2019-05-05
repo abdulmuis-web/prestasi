@@ -1,0 +1,7 @@
+name: 'Juara'
+type: module
+description: 'Juara yang didapat dalam perlombaan'
+core: 8.x
+package: 'PPDB'
+dependencies:
+  - prestasi

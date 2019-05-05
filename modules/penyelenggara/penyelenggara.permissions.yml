@@ -1,0 +1,19 @@
+add penyelenggara entities:
+  title: 'Create new Penyelenggara entities'
+
+administer penyelenggara entities:
+  title: 'Administer Penyelenggara entities'
+  description: 'Allow to access the administration form to configure Penyelenggara entities.'
+  restrict access: true
+
+delete penyelenggara entities:
+  title: 'Delete Penyelenggara entities'
+
+edit penyelenggara entities:
+  title: 'Edit Penyelenggara entities'
+
+view published penyelenggara entities:
+  title: 'View published Penyelenggara entities'
+
+view unpublished penyelenggara entities:
+  title: 'View unpublished Penyelenggara entities'

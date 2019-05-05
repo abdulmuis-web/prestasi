@@ -1,0 +1,5 @@
+entity.penyelenggara.add_form:
+  route_name: entity.penyelenggara.add_form
+  title: 'Add Penyelenggara'
+  appears_on:
+    - entity.penyelenggara.collection

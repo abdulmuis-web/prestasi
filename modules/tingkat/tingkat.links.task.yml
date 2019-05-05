@@ -1,0 +1,22 @@
+# Tingkat routing definition
+tingkat.settings_tab:
+  route_name: tingkat.settings
+  title: 'Settings'
+  base_route: tingkat.settings
+
+entity.tingkat.canonical:
+  route_name: entity.tingkat.canonical
+  base_route: entity.tingkat.canonical
+  title: 'View'
+
+entity.tingkat.edit_form:
+  route_name: entity.tingkat.edit_form
+  base_route: entity.tingkat.canonical
+  title: 'Edit'
+
+entity.tingkat.delete_form:
+  route_name:  entity.tingkat.delete_form
+  base_route:  entity.tingkat.canonical
+  title: Delete
+  weight: 10
+

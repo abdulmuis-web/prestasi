@@ -1,0 +1,14 @@
+{
+  "name": "drupal/penyelenggara",
+  "type": "drupal-module",
+  "description": "Penyelenggara kejuaraan",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/penyelenggara",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/penyelenggara",
+    "source": "http://cgit.drupalcode.org/penyelenggara"
+  },
+  "require": { }
+}

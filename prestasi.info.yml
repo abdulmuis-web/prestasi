@@ -1,0 +1,7 @@
+name: 'Prestasi'
+type: module
+description: 'Prestasi siswa'
+core: 8.x
+package: 'PPDB'
+dependencies:
+  - views

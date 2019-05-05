@@ -1,0 +1,8 @@
+name: 'Penyelenggara'
+type: module
+description: 'Penyelenggara kejuaraan'
+core: 8.x
+package: 'PPDB'
+dependencies:
+  - views
+  - prestasi

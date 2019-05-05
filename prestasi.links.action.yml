@@ -1,0 +1,5 @@
+entity.prestasi.add_form:
+  route_name: entity.prestasi.add_form
+  title: 'Add Prestasi'
+  appears_on:
+    - entity.prestasi.collection

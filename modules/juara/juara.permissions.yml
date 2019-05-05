@@ -1,0 +1,19 @@
+add juara entities:
+  title: 'Create new Juara entities'
+
+administer juara entities:
+  title: 'Administer Juara entities'
+  description: 'Allow to access the administration form to configure Juara entities.'
+  restrict access: true
+
+delete juara entities:
+  title: 'Delete Juara entities'
+
+edit juara entities:
+  title: 'Edit Juara entities'
+
+view published juara entities:
+  title: 'View published Juara entities'
+
+view unpublished juara entities:
+  title: 'View unpublished Juara entities'

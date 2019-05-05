@@ -1,0 +1,14 @@
+
+# Tingkat menu items definition
+entity.tingkat.collection:
+  title: 'Tingkat list'
+  route_name: entity.tingkat.collection
+  description: 'List Tingkat entities'
+  parent: system.admin_structure
+  weight: 100
+
+tingkat.admin.structure.settings:
+  title: 'Tingkat settings'
+  description: 'Configure Tingkat entities'
+  route_name: tingkat.settings
+  parent: system.admin_structure

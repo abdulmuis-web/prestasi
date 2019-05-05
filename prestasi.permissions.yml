@@ -1,0 +1,19 @@
+add prestasi entities:
+  title: 'Create new Prestasi entities'
+
+administer prestasi entities:
+  title: 'Administer Prestasi entities'
+  description: 'Allow to access the administration form to configure Prestasi entities.'
+  restrict access: true
+
+delete prestasi entities:
+  title: 'Delete Prestasi entities'
+
+edit prestasi entities:
+  title: 'Edit Prestasi entities'
+
+view published prestasi entities:
+  title: 'View published Prestasi entities'
+
+view unpublished prestasi entities:
+  title: 'View unpublished Prestasi entities'

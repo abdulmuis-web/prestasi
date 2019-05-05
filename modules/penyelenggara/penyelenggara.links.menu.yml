@@ -1,0 +1,14 @@
+
+# Penyelenggara menu items definition
+entity.penyelenggara.collection:
+  title: 'Penyelenggara list'
+  route_name: entity.penyelenggara.collection
+  description: 'List Penyelenggara entities'
+  parent: system.admin_structure
+  weight: 100
+
+penyelenggara.admin.structure.settings:
+  title: 'Penyelenggara settings'
+  description: 'Configure Penyelenggara entities'
+  route_name: penyelenggara.settings
+  parent: system.admin_structure

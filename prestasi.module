@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains prestasi.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function prestasi_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the prestasi module.
+    case 'help.page.prestasi':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Prestasi siswa') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,19 @@
+add tingkat entities:
+  title: 'Create new Tingkat entities'
+
+administer tingkat entities:
+  title: 'Administer Tingkat entities'
+  description: 'Allow to access the administration form to configure Tingkat entities.'
+  restrict access: true
+
+delete tingkat entities:
+  title: 'Delete Tingkat entities'
+
+edit tingkat entities:
+  title: 'Edit Tingkat entities'
+
+view published tingkat entities:
+  title: 'View published Tingkat entities'
+
+view unpublished tingkat entities:
+  title: 'View unpublished Tingkat entities'

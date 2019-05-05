@@ -1,0 +1,14 @@
+
+# Prestasi menu items definition
+entity.prestasi.collection:
+  title: 'Prestasi list'
+  route_name: entity.prestasi.collection
+  description: 'List Prestasi entities'
+  parent: system.admin_structure
+  weight: 100
+
+prestasi.admin.structure.settings:
+  title: 'Prestasi settings'
+  description: 'Configure Prestasi entities'
+  route_name: prestasi.settings
+  parent: system.admin_structure
