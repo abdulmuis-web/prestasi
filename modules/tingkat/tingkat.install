@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * Implements hook_install().
+ *
+ * Creates some default entries on this module custom table.
+ *
+ * @see hook_install()
+ *
+ * @ingroup simulasi
+ */
+use Drupal\tingkat\Entity\Tingkat;
+
+function tingkat_install() {
+  
+  $entries = [
+	['id' => '10', 'name' => 'Internasional', 'score' => '80'],
+	['id' => '20', 'name' => 'Nasional', 'score' => '75'],
+	['id' => '30', 'name' => 'Kabupaten / Kota', 'score' => '55'],
+  ];
+  
+  foreach ($entries as $entry) {
+	$entry['user_id'] = '1'; 
+    $tingkat = Tingkat::create($entry);
+	
+	$tingkat->save();
+  }
+}

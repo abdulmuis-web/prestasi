@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * Implements hook_install().
+ *
+ * Creates some default entries on this module custom table.
+ *
+ * @see hook_install()
+ *
+ * @ingroup simulasi
+ */
+use Drupal\juara\Entity\Juara;
+
+function juara_install() {
+  // Insert some example data into our schema.
+
+  $entries = [
+	['id' => '10', 'name' => 'Juara 1', 'score' => '90'],
+	['id' => '20', 'name' => 'Juara 2', 'score' => '70'],
+	['id' => '30', 'name' => 'Juara 3', 'score' => '50'],
+  ];
+  
+  foreach ($entries as $entry) {
+	$entry['user_id'] = '1'; 
+    $juara = Juara::create($entry);
+	
+	$juara->save();
+  }
+}

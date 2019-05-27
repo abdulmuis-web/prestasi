@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * Implements hook_install().
+ *
+ * Creates some default entries on this module custom table.
+ *
+ * @see hook_install()
+ *
+ * @ingroup simulasi
+ */
+use Drupal\penyelenggara\Entity\Penyelenggara;
+
+function penyelenggara_install() {
+  
+  $entries = [
+	['id' => '10', 'name' => 'Kemdikbud', 'score' => '80'],
+	['id' => '20', 'name' => 'Non Kemdikbud', 'score' => '65'],
+  ];
+  
+  foreach ($entries as $entry) {
+	$entry['user_id'] = '1'; 
+    $penyelenggara = Penyelenggara::create($entry);
+	
+	$penyelenggara->save();
+  }
+}
